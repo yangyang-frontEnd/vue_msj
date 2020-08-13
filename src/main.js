@@ -2,6 +2,13 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import './plugins/element.js'
+
+import "./assets/css/index.styl";
+import "./assets/css/over-write.styl";
+
+import VueLazyload from "vue-lazyload";
+Vue.use(VueLazyload);
 
 Vue.config.productionTip = false
 
